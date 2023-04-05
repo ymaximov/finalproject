@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* antd override */
+input{
+  border-radius: 0 !important;
+  border: 1px solid rgba(128, 128, 128, 0.931) !important;
+  height: 40px !important;
+}
+
+input:focus .ant-picker {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+/* Common Styling */
+
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.704);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  z-index: 9999;
+}
+
+.spinner-border {
+  width: 4rem;
+  height: 4rem;
+  color: rgb(216, 4, 244);
+}
+
+.card-title {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.primary-button {
+  background-color: chocolate !important;
+  border-color: black !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: white !important;
+  font-size: 16px !important;
+  width: max-content !important;
+}
+
+.full-width-button {
+  width: 100% !important;
+}
+
+.anchor {
+  color: black !important;
+  text-decoration: underline !important;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+
+.anchor:hover {
+  text-decoration: underline !important;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}
+
+.ant-picker {
+  height: 40px !important;
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.931) !important;
+}
+
+/* authentication pages */
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  background-color: rgba(160, 168, 167, 0.121);
+}
+
+.doctor {
+  cursor: pointer !important;
+}
+.authentication-form {
+  width: 400px
+}
+
+.authentication .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: rgb(13, 201, 201);
+  color: white !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.page-title {
+  font-size: 25px;
+  color: (0, 0, 0, 0.833);
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: (0, 0, 0, 0.627);
+}
